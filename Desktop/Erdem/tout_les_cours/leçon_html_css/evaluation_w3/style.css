@@ -1,0 +1,100 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+nav a
+{
+    font-size: 13px;
+    display: flex;
+    line-height: 30px;
+    font-weight: 400px;
+    color: black;
+    cursor: pointer;
+    padding: 8px 10px;
+}
+
+.menu
+{
+    width: 34px;
+    padding: 5px;
+    margin: auto 6px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+nav button
+{
+    border: 1px solid blue;
+    color:white;
+    background-color: blue;
+    font-weight: bold;
+    padding: 7px 12px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.section-1
+{
+    flex: 1;
+}
+
+.section-1 .logo
+{
+    cursor: pointer;
+    display: block;
+    margin: 0px auto;
+    margin-top: 105px;
+}
+
+.s-box
+{
+    align-items: center;
+    width: 590px;
+    margin: 0px auto;
+    margin-top: -8px;
+    text-align: center;
+}
+
+.s-box .s-input
+{
+
+    display: flex;
+    border: 2px solid #ddd;
+    color: gray;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 90px;
+    border-radius: 30px;
+    width: 100%;
+
+}
+
+.s-box .s-input:hover 
+{
+    border: 2px solid  #fff;
+    box-shadow: white ;
+}
+
+
