@@ -25,6 +25,7 @@ nav
 
 nav a
 {
+    display: flex;
     font-size: 13px;
     display: flex;
     line-height: 30px;
@@ -36,6 +37,7 @@ nav a
 
 .menu
 {
+    display: flex;
     width: 34px;
     padding: 5px;
     margin: auto 6px;
@@ -46,6 +48,7 @@ nav a
 
 nav button
 {
+    display: flex;
     border: 1px solid blue;
     color:white;
     background-color: blue;
@@ -63,7 +66,7 @@ nav button
 .section-1 .logo
 {
     cursor: pointer;
-    display: block;
+    display: flex;
     margin: 0px auto;
     margin-top: 105px;
 }
@@ -75,6 +78,7 @@ nav button
     margin: 0px auto;
     margin-top: -8px;
     text-align: center;
+    outline: none;
 }
 
 .s-box .s-input
@@ -88,6 +92,7 @@ nav button
     padding-left: 90px;
     border-radius: 30px;
     width: 100%;
+    
 
 }
 
@@ -96,5 +101,83 @@ nav button
     border: 2px solid  #fff;
     box-shadow: white ;
 }
+
+.s-btn
+{
+    border:1px solid transparent;
+    padding: 9px 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 28px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 100ms;
+}
+
+.s.btn:hover
+{
+    border: 1px solid gray
+}
+
+.logo
+{
+    margin-top: 100px;
+    margin-right: 1000% ;
+}
+
+footer
+{
+    background: rgb(238, 237, 237);
+}
+
+footer h5
+{
+  color: rgba(0,0,0 0.54);
+  font-size: 15px;
+  line-height: 40px;
+  font-weight: 400px;
+  padding-left: 29px;
+  border: 1px solid white;
+}
+
+footer a
+{
+    color: gray;
+    display: inline-block;
+    padding: 12px 12px;
+    font-size: 14px;
+}
+
+footer a:hover
+{
+    text-decoration: underline;
+}
+
+
+.links
+{
+    border-top: 1px solid #ddd;
+    display: flex;
+}
+
+.link-1
+{
+    padding-left: 18px;
+    flex: 1;
+}
+
+.link-2
+{
+    padding-right: 18px;
+    flex: 1;
+}
+
+.barre
+{
+    margin-top: 500px;
+}
+
 
 
